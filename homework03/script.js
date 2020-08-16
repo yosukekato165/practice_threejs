@@ -116,13 +116,6 @@
         horison.renderToScreen = true;
         composer.addPass(horison);
 
-        // glitchPass = new THREE.GlitchPass();
-        // composer.addPass(glitchPass);
-        // glitchPass.renderToScreen = true;
-
-        // effectFilm = new THREE.FilmPass(1, 0., 0, false)
-        // effectFilm.renderToScreen = true;
-        // composer.addPass(effectFilm)
 
         // ジオメトリ、マテリアル、メッシュ生成
         const boxSize = 0.5;
