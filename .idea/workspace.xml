@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82898684-ecc8-4c8c-8fbc-1540b32f687d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/homework04/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework04/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework05/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework05/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -64,7 +64,9 @@
       <updated>1597454526585</updated>
       <workItem from="1597454527772" duration="4000" />
       <workItem from="1597454597682" duration="10017000" />
-      <workItem from="1597666616830" duration="1151000" />
+      <workItem from="1597666616830" duration="1939000" />
+      <workItem from="1597707854118" duration="8000" />
+      <workItem from="1597837740165" duration="890000" />
     </task>
     <servers />
   </component>
@@ -81,5 +83,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
