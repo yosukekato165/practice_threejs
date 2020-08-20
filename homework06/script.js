@@ -45,8 +45,7 @@
     let effectFilm
     let glitchPass;       // グリッチパス
     let dotScreenPass;    // ドットスクリーンパス @@@
-    let horizon
-    let group
+    let horizon;
 
 
 
@@ -81,7 +80,7 @@
     };
     // アンビエントライトに関するパラメータの定義
     const AMBIENT_LIGHT_PARAM = {
-        color: 0xff00ff, // 光の色
+        color: 0xffffff, // 光の色
         intensity: 0.1,  // 光の強度
     };
 
@@ -107,6 +106,8 @@
         camera.lookAt(CAMERA_PARAM.lookAt);
 
 
+
+
         composer = new THREE.EffectComposer(renderer);
         renderPass = new THREE.RenderPass(scene, camera);
         composer.addPass(renderPass);
@@ -119,12 +120,9 @@
         effectFilm.renderToScreen = true;
         composer.addPass(effectFilm)
 
-
-        composer = new THREE.EffectComposer(renderer);
-        renderPass = new THREE.RenderPass(scene, camera);
-        composer.addPass(renderPass);
-
-
+        horizon = new THREE.ShaderPass(THREE.HorizontalBlurShader);
+        horizon.renderToScreen = true;
+        composer.addPass(horizon);
 
         // ジオメトリ、マテリアル、メッシュ生成
         const boxSize = 1;
